@@ -134,6 +134,7 @@ function startQuiz() {
     madPoints = 0;
     infoButton.classList.add('hide');
     quizContainer.classList.remove('hide');
+    questionContainer.classList.remove('hide');
     resultContainer.classList.add('hide');
     nextButton.classList.add('hide');
     setNextQuestion();
